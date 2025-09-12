@@ -4,8 +4,8 @@ export default function Header() {
     <header>
       <img src="" alt="Insight logo" />
       <h1>Insight</h1>
-      <p>SOme catchy line</p>
+      <p>Some catchy line</p>
     </header>,
-    document.getElementsByTagName("body")
+    document.getElementById("body")
   );
 }
