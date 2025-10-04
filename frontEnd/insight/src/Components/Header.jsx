@@ -1,11 +1,13 @@
-import { createPortal } from "react-dom";
+import "./Header.css";
+import InsightLogo from "../assets/eye-6-svgrepo-com.svg";
+
 export default function Header() {
-  return createPortal(
-    <header>
-      <img src="" alt="Insight logo" />
-      <h1>Insight</h1>
-      <p>Some catchy line</p>
-    </header>,
-    document.getElementById("body")
+  return (
+    <a href="#header">
+      <header id="header">
+        <img src={InsightLogo} alt="Insight logo" />
+        <h1>Insight</h1>
+      </header>
+    </a>
   );
 }
