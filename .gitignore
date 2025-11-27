@@ -1,1 +1,4 @@
 .vscode/settings.json
+llmbackend/__pycache__/
+llmbackend/venv/
+
